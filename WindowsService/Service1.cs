@@ -49,7 +49,7 @@ namespace WindowsService
                 /*   var listA = new List<string>();
                  var stringQuery = "";
 
-                 using (var reader = new StreamReader(@"C:\\Users\\caefernandes\\Downloads\\Base Radar de Proximidade Call Center.csv"))
+                 using (var reader = new StreamReader(@"C:\\Users\\caefernandes\\Downloads\\arquivo_teste.csv"))
                  {
                      while (!reader.EndOfStream)
                      {
@@ -64,7 +64,7 @@ namespace WindowsService
 
                  stringQuery = string.Join(",", listA);
 
-                var fileName = string.Format("C:\\Users\\caefernandes\\Downloads\\Base Radar de Proximidade Call Center.xlsx");
+                var fileName = string.Format("C:\\Users\\caefernandes\\Downloads\\arquivo_teste.xlsx");
                   var connectionString = string.Format("Provider=Microsoft.Jet.OLEDB.4.0; data source={0}; Extended Properties=Excel 8.0;", fileName);
 
                   var adapter = new OleDbDataAdapter("SELECT * FROM [planilha1$]", connectionString);
